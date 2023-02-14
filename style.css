@@ -81,6 +81,7 @@ h1 {
   width: 343px;
   border-radius: 10px;
   background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+  padding: 0 32px;
 }
 
 .check {
@@ -89,8 +90,9 @@ h1 {
   font-weight: 800;
   line-height: 32px;
   color: white;
-  margin-left: 28px;
-  display: inline-block;
+  width: 226px;
+  margin-top: 64px;
+  /* display: inline-block; */
 }
 
 .icon {
@@ -99,7 +101,7 @@ h1 {
   position: absolute;
   margin-left: 30px;
   display: flex;
-  margin-top: -270px;
+  margin-top: -30px;
 }
 
 .block {
@@ -107,7 +109,7 @@ h1 {
   height: 279px;
   width: 343px;
   border-radius: 10px;
-  margin-top: 40px;
+  /* margin-top: 40px; */
   padding: 28px;
 }
 
@@ -119,7 +121,7 @@ h1 {
   text-align: left;
   columns: #13183f;
   display: inline-block;
-  margin-top: 56px;
+  /* margin-top: 56px; */
 }
 
 .info-text {
@@ -197,9 +199,10 @@ h1 {
   }
   .d-flex {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     margin-top: 123px;
-    flex-direction: row;
+    gap: 56px 10px;
   }
   .end {
     width: 100%;
@@ -215,6 +218,15 @@ h1 {
   }
   .icon {
     position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .info-text {
+    font-family: "Plus Jakarta Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
   }
 }
 
@@ -258,7 +270,7 @@ h1 {
     flex-wrap: wrap;
   }
   .block {
-    width: 322px;
+    width: 339px;
     height: 350px;
   }
   .skill-end {
